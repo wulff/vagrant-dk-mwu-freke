@@ -141,6 +141,7 @@ class freke::install {
   # install required perl modules
 
   cpanm::install { 'Mojolicious': }
+  cpanm::install { 'Business::DK::CPR': }
   cpanm::install { 'Date::Time': }
   cpanm::install { 'DateTime::Format::MySQL': }
   cpanm::install { 'DBIx::Class': }
