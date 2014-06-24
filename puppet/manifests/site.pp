@@ -45,7 +45,7 @@ class freke::requirements {
   user { $mojo_user_name:
     ensure => present,
     managehome => true,
-    shell => '/bin/bash',
+    shell => '/bin/false',
     password => $mojo_user_password,
   }
 
