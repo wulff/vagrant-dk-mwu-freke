@@ -151,7 +151,7 @@ class freke::install {
   # monitoring and notification tools
 
   class { 'munin::node':
-    host => 'TODO',
+    host => '192.168.135.20',
     allow => '^192\.168\.157\.235$',
   }
 
