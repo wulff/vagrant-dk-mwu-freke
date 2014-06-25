@@ -147,6 +147,7 @@ class freke::install {
   cpanm::install { 'DBIx::Class': }
   cpanm::install { 'DBIx::Class::Schema::Loader': }
   cpanm::install { 'Geo::Coordinates::UTM': }
+  cpanm::install { 'HTTP::Date': }
   cpanm::install { 'SQL::Translator': }
 
   # monitoring and notification tools
