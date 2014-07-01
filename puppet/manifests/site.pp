@@ -137,6 +137,10 @@ class freke::install {
     port => 3001,
     upstream => 'cpr',
   }
+  nginx::mojo { 'artikelprognoser.mwu.dk':
+    port => 3002,
+    upstream => 'thesis',
+  }
 
   # install required perl modules
 
